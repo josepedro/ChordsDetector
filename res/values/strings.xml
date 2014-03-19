@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    
+    <string name="app_name">SoundRecordingExample2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_sound_recording_example2">SoundRecordingExample2</string>
+    
+    <string name="chord_is">The chord is: </string>
+    <string name="chords_detector">Chords Detector</string>
+ 
+    <string name="app_info">This is a sample application to record audio.\n\nTo start recording press \&quot;Record\&quot; button, to stop recording press \&quot;Stop\&quot; button.</string>
+    <string name="choose_format_title">Choose Audio Format</string>
+    <string name="start_recording">Record</string>
+    <string name="stop_recording">Stop</string>
+    <string name="audio_format">Format</string>
+
+</resources>

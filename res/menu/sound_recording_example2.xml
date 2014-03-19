@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   
+    
+       <item android:id="@+id/airport_menuRefresh"
+         android:icon="@android:drawable/ic_menu_help"
+         android:title="TESTE"
+         android:alphabeticShortcut="r"
+         android:orderInCategory="1"
+         android:showAsAction="always" />
+    
+    
+
+</menu>

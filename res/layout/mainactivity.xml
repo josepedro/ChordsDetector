@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/lens"
+    android:orientation="vertical"
+    android:padding="20dip" >
+    
+    <ProgressBar
+            android:id="@+id/vertical_progressbarEnergy"
+            style="@style/Widget.ProgressBar.HorizontalProgressBar"
+            android:layout_width="fill_parent"
+            android:layout_height="5dip" />
+    
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.28" >
+
+        <TextView
+            android:id="@+id/Chord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#FFFFA500"
+            android:textIsSelectable="false"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal" >
+
+        <!-- C -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/vertical_progressbarC"
+                style="@style/Widget.ProgressBar.Verticalc"
+                android:layout_width="12dip"
+                android:layout_height="130dip" />
+
+            <TextView
+                android:id="@+id/C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="do"
+                android:textColor="#FF0000"
+                android:textIsSelectable="false"
+                android:textSize="12sp"
+                android:typeface="normal" />
+        </LinearLayout>
+        <!-- C# -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/vertical_progressbarCs"
+                style="@style/Widget.ProgressBar.Verticalcs"
+                android:layout_width="12dip"
+                android:layout_height="85dip" />
+
+            <TextView
+                android:id="@+id/Cs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="do#"
+                android:textColor="#ffa52a2a"
+                android:textIsSelectable="false"
+                android:textSize="12sp"
+                android:typeface="normal" />
+        </LinearLayout>
+        <!-- D -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/vertical_progressbarD"
+                style="@style/Widget.ProgressBar.Verticald"
+                android:layout_width="12dip"
+                android:layout_height="130dip" />
+
+            <TextView
+                android:id="@+id/D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="re"
+                android:textColor="#ffffa500"
+                android:textIsSelectable="false"
+                android:textSize="12sp"
+                android:typeface="normal" />
+        </LinearLayout>
+        <!-- Eb -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/vertical_progressbarEb"
+                style="@style/Widget.ProgressBar.Verticaleb"
+                android:layout_width="12dip"
+                android:layout_height="85dip" />
+
+            <TextView
+                android:id="@+id/Eb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mib"
+                android:textColor="#ffcd853f"
+                android:textIsSelectable="false"
+                android:textSize="12sp"
+                android:typeface="normal" />
+        </LinearLayout>
+       <!-- E -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/vertical_progressbarE"
+                style="@style/Widget.ProgressBar.Verticale"
+                android:layout_width="12dip"
+                android:layout_height="130dip" />
+
+            <TextView
+                android:id="@+id/E"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mi"
+                android:textColor="#ff00ced1"
+                android:textIsSelectable="false"
+                android:textSize="12sp"
+                android:typeface="normal" />
+        </LinearLayout>
+        <!-- F -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/vertical_progressbarF"
+                style="@style/Widget.ProgressBar.Verticalf"
+                android:layout_width="12dip"
+                android:layout_height="130dip" />
+
+            <TextView
+                android:id="@+id/F"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fa"
+                android:textColor="#ff5f9ea0"
+                android:textIsSelectable="false"
+                android:textSize="12sp"
+                android:typeface="normal" />
+        </LinearLayout>
+        <!-- F# -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/vertical_progressbarFs"
+                style="@style/Widget.ProgressBar.Verticalfs"
+                android:layout_width="12dip"
+                android:layout_height="85dip" />
+
+            <TextView
+                android:id="@+id/Fs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fa#"
+                android:textColor="#ffdaa520"
+                android:textIsSelectable="false"
+                android:textSize="12sp"
+                android:typeface="normal" />
+        </LinearLayout>
+        <!-- G -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/vertical_progressbarG"
+                style="@style/Widget.ProgressBar.Verticalg"
+                android:layout_width="12dip"
+                android:layout_height="130dip" />
+
+            <TextView
+                android:id="@+id/G"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sol"
+                android:textColor="#ff0000ff"
+                android:textIsSelectable="false"
+                android:textSize="12sp"
+                android:typeface="normal" />
+        </LinearLayout>
+        <!-- G# -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/vertical_progressbarGs"
+                style="@style/Widget.ProgressBar.Verticalgs"
+                android:layout_width="12dip"
+                android:layout_height="85dip" />
+
+            <TextView
+                android:id="@+id/Gs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sol#"
+                android:textColor="#ff32cd32"
+                android:textIsSelectable="false"
+                android:textSize="12sp"
+                android:typeface="normal" />
+        </LinearLayout>
+        <!-- A -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/vertical_progressbarA"
+                style="@style/Widget.ProgressBar.Verticala"
+                android:layout_width="12dip"
+                android:layout_height="130dip" />
+
+            <TextView
+                android:id="@+id/A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="la"
+                android:textColor="#ff7b68ee"
+                android:textIsSelectable="false"
+                android:textSize="12sp"
+                android:typeface="normal" />
+        </LinearLayout>
+        <!-- Bb -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/vertical_progressbarBb"
+                style="@style/Widget.ProgressBar.Verticalbb"
+                android:layout_width="12dip"
+                android:layout_height="85dip" />
+
+            <TextView
+                android:id="@+id/Bb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sib"
+                android:textColor="#ffff1493"
+                android:textIsSelectable="false"
+                android:textSize="12sp"
+                android:typeface="normal" />
+        </LinearLayout>
+        <!-- B -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/vertical_progressbarB"
+                style="@style/Widget.ProgressBar.Verticalb"
+                android:layout_width="12dip"
+                android:layout_height="130dip" />
+
+            <TextView
+                android:id="@+id/B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="si"
+                android:textColor="#ffee82ee"
+                android:textIsSelectable="false"
+                android:textSize="12sp"
+                android:typeface="normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnSetSoundGetChord"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/orange_button"
+        android:src="@android:drawable/ic_btn_speak_now" />
+
+</LinearLayout>
